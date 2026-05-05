@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes Disponibles - Viajes Abade</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Viajes Abade</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre Nosotros</a></li>
+        <li><a href="viajes.html" class="activo">Viajes</a></li>
+        <li><a href="formulario.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="intro-viajes">
+      <h2>Descubrí nuestros próximos destinos</h2>
+      <p>
+        En Viajes Abade planificamos salidas pensadas para adultos mayores, con grupos reducidos,
+        atención personalizada y experiencias inolvidables.
+        Todos los viajes incluyen transporte, alojamiento, excursiones y asistencia permanente
+        durante toda la estadía.
+      </p>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filtros">
+      <button class="filtro-btn active" data-categoria="todos">Todos</button>
+      <button class="filtro-btn" data-categoria="playa">Playa</button>
+      <button class="filtro-btn" data-categoria="montaña">Montaña</button>
+      <button class="filtro-btn" data-categoria="naturaleza">Naturaleza</button>
+      <button class="filtro-btn" data-categoria="ciudad">Ciudad</button>
+    </section>
+
+    <!--CONTENEDOR DINÁMICO -->
+    <section class="viajes-lista" id="contenedor-viajes">
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contacto: viajesAbade@gmail.com | Tel/WhatsApp: +54 351 XXX XXXX</p>
+    <p>&copy; 2025 Viajes Abade</p>
+  </footer>
+
+  <a href="https://wa.me/549351XXXXXXX" target="_blank" class="whatsapp-btn">💬</a>
+
+
+  <script src="js/viajes.js"></script>
+
+</body>
+</html>
