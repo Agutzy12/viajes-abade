@@ -1,0 +1,16 @@
+{
+  "name": "viajes-abade",
+  "version": "1.0.0",
+  "description": "Backend para viajes",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node index.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "4.22.2",
+    "pg": "8.21.0"
+  }
+}

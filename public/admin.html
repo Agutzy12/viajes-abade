@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Viajes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Panel de Administración</h1>
+</header>
+
+<main>
+
+<h2>Administrar Viajes</h2>
+
+<form id="formViaje">
+
+    <input type="hidden" id="id">
+
+    <label>Destino</label>
+    <input type="text" id="destino" required>
+
+    <label>Fecha</label>
+    <input type="text" id="fecha" required>
+
+    <label>Duración</label>
+    <input type="text" id="duracion" required>
+
+    <label>Hotel</label>
+    <input type="text" id="hotel" required>
+
+    <label>Excursión</label>
+    <input type="text" id="excursion" required>
+
+    <label>Coordinación</label>
+    <input type="text" id="coordinacion" required>
+
+    <label>Precio</label>
+    <input type="text" id="precio" required>
+
+    <button type="submit">
+        Guardar viaje
+    </button>
+
+</form>
+
+<hr>
+
+<table id="tablaViajes">
+
+    <thead>
+
+        <tr>
+
+            <th>ID</th>
+            <th>Destino</th>
+            <th>Fecha</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+    </tbody>
+
+</table>
+
+</main>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>

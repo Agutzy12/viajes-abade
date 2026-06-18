@@ -1,0 +1,3 @@
+node_modules/
+.env
+data/viajes.jsongit rm -r --cached node_modules

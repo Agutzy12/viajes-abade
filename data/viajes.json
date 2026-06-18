@@ -1,0 +1,107 @@
+[
+  {
+    "titulo": "🌄 Bariloche - Naturaleza y Relax",
+    "fecha": "Salida: 15 de noviembre | 5 días / 4 noches",
+    "detalles": "Hotel 3 estrellas con pensión completa, Excursiones al Cerro Catedral y Circuito Chico, Coordinación permanente",
+    "precio": "Consultar por cupos",
+    "categoria": "montaña"
+  },
+  {
+    "titulo": "🌿 Cataratas del Iguazú - Maravilla Natural",
+    "fecha": "Salida: 8 de diciembre | 4 días / 3 noches",
+    "detalles": "Hotel céntrico con desayuno incluido, Excursión al Parque Nacional Iguazú, Guía acompañante durante todo el viaje",
+    "precio": "Consultar",
+    "categoria": "naturaleza"
+  },
+  {
+    "titulo": "🏖️ Mar del Plata - Descanso junto al mar",
+    "fecha": "Salida: Enero 2026 | 6 días / 5 noches",
+    "detalles": "Hotel frente al mar, Paseos guiados por la ciudad, Coordinación y asistencia médica",
+    "precio": "A confirmar",
+    "categoria": "playa"
+  },
+  {
+    "titulo": "🏔️ Mendoza - Vinos y Cordillera",
+    "fecha": "Salida: Febrero 2026 | 5 días / 4 noches",
+    "detalles": "Hotel céntrico, Visita a bodegas, Excursión a la cordillera",
+    "precio": "Consultar",
+    "categoria": "montaña"
+  },
+  {
+    "titulo": "🌆 Buenos Aires - City Tour Completo",
+    "fecha": "Salida: Marzo 2026 | 3 días / 2 noches",
+    "detalles": "Hotel céntrico, Recorrido por puntos históricos, Cena show",
+    "precio": "Consultar",
+    "categoria": "ciudad"
+  },
+  {
+    "titulo": "🏝️ Caribe - Playa y Relax",
+    "fecha": "Salida: Abril 2026 | 7 días / 6 noches",
+    "detalles": "Resort all inclusive, Actividades acuáticas, Excursiones guiadas",
+    "precio": "Desde USD 1200",
+    "categoria": "playa"
+  },
+  {
+    "titulo": "🌄 Salta - Cultura y Paisajes",
+    "fecha": "Salida: Mayo 2026 | 5 días / 4 noches",
+    "detalles": "Hotel céntrico, Visita a Cafayate, Recorrido cultural",
+    "precio": "Consultar",
+    "categoria": "naturaleza"
+  },
+  {
+    "titulo": "🏞️ El Calafate - Glaciares",
+    "fecha": "Salida: Junio 2026 | 4 días / 3 noches",
+    "detalles": "Excursión al Perito Moreno, Hotel con desayuno, Guía incluido",
+    "precio": "Consultar",
+    "categoria": "naturaleza"
+  },
+  {
+    "titulo": "🏖️ Florianópolis - Brasil",
+    "fecha": "Salida: Julio 2026 | 6 días / 5 noches",
+    "detalles": "Hotel frente a la playa, Traslados incluidos, Excursiones",
+    "precio": "Consultar",
+    "categoria": "playa"
+  },
+  {
+    "titulo": "🌄 Ushuaia - Fin del Mundo",
+    "fecha": "Salida: Agosto 2026 | 5 días / 4 noches",
+    "detalles": "Parque Nacional Tierra del Fuego, Navegación, Hotel céntrico",
+    "precio": "Consultar",
+    "categoria": "montaña"
+  },
+  {
+    "titulo": "🏙️ Córdoba - Sierras",
+    "fecha": "Salida: Septiembre 2026 | 4 días / 3 noches",
+    "detalles": "Hotel con desayuno, Paseos por las sierras, Excursiones",
+    "precio": "Consultar",
+    "categoria": "montaña"
+  },
+  {
+    "titulo": "🌴 Punta Cana - Lujo y Playa",
+    "fecha": "Salida: Octubre 2026 | 7 días / 6 noches",
+    "detalles": "All inclusive, Playa privada, Actividades recreativas",
+    "precio": "Desde USD 1500",
+    "categoria": "playa"
+  },
+  {
+    "titulo": "🌄 Jujuy - Quebrada de Humahuaca",
+    "fecha": "Salida: Noviembre 2026 | 5 días / 4 noches",
+    "detalles": "Paisajes únicos, Cultura local, Hotel céntrico",
+    "precio": "Consultar",
+    "categoria": "naturaleza"
+  },
+  {
+    "titulo": "🏖️ Pinamar - Verano 2026",
+    "fecha": "Salida: Enero 2026 | 7 días / 6 noches",
+    "detalles": "Hotel cerca del mar, Actividades recreativas, Traslados",
+    "precio": "Consultar",
+    "categoria": "playa"
+  },
+  {
+    "titulo": "🌆 Rosario - Escapada Urbana",
+    "fecha": "Salida: Diciembre 2026 | 3 días / 2 noches",
+    "detalles": "Hotel céntrico, City tour, Gastronomía local",
+    "precio": "Consultar",
+    "categoria": "ciudad"
+  }
+]
