@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contacto - Viajes Abade</title>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre Nosotros</a></li>
+        <li><a href="viajes.html">Viajes Disponibles</a></li>
+        <li><a href="formulario.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Reservá tu lugar</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="destino">Destino:</label><br>
+      <select id="destino" name="destino" required>
+        <option value="">-- Selecciona un destino --</option>
+        <option value="bariloche">Bariloche</option>
+        <option value="iguazu">Cataratas del Iguazú</option>
+      </select><br><br>
+
+      <label for="personas">Cantidad de personas:</label><br>
+      <input type="number" id="personas" name="personas" min="1" required><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <section>
+      <h3>También podés escribirnos</h3>
+      <p>Email: viajesabade@gmail.com</p>
+      <p>WhatsApp: +54 351 XXX XXXX</p>
+      <p>Ubicación: Córdoba Capital, Argentina</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Viajes Abade</p>
+  </footer>
+</body>
+</html>

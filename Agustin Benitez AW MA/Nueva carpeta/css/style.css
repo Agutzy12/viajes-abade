@@ -1,0 +1,377 @@
+
+:root {
+  --color-principal: #2f89fc;
+  --color-secundario: #f5f7fa;
+  --color-texto: #333;
+  --color-footer: #1b1b1b;
+  --color-boton: #ff914d;
+  --color-boton-hover: #ff6a00;
+  --color-banner: #e9f1ff;
+  --fuente-principal: "Segoe UI", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  line-height: 1.6;
+  color: var(--color-texto);
+  background-color: var(--color-secundario);
+}
+
+header {
+  background-color: var(--color-principal);
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  animation: fadeInDown 0.7s ease;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a.activo {
+  background-color: var(--color-boton);
+  transform: scale(1.05);
+}
+
+
+main {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.6s ease;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  color: var(--color-principal);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h3 {
+  color: var(--color-boton);
+  margin-bottom: 0.5rem;
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.banner {
+  background-color: var(--color-banner);
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner h2 {
+  color: var(--color-principal);
+  font-size: 2rem;
+}
+
+.banner p {
+  color: #555;
+  max-width: 700px;
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+}
+
+/* ---- INICIO ---- */
+body.inicio main {
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+}
+body.inicio h2 {
+  color: #1e6cf5;
+}
+body.inicio ul li::marker {
+  color: var(--color-boton);
+}
+
+/* ---- SOBRE NOSOTROS ---- */
+body.sobre main {
+  border-left: 6px solid var(--color-principal);
+  border-right: 6px solid var(--color-principal);
+}
+body.sobre h2 {
+  color: var(--color-boton);
+}
+body.sobre ul li::marker {
+  color: var(--color-principal);
+}
+
+/* ---- VIAJES ---- */
+body.viajes main {
+  background: linear-gradient(180deg, #ffffff, #f0f7ff);
+}
+body.viajes h2 {
+  color: #1b63d3;
+}
+body.viajes .tarjeta-viaje {
+  background-color: #fff;
+  border-left: 6px solid var(--color-boton);
+}
+
+/* ---- FORMULARIO ---- */
+body.formulario main {
+  background: linear-gradient(180deg, #ffffff, #fff6ee);
+}
+body.formulario form {
+  background-color: #fffdf9;
+  border: 2px solid #ffe0c0;
+}
+/* FILTROS */
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.filtro-btn {
+    padding: 10px 18px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.filtro-btn.active {
+    background: #ff7b00;
+    color: white;
+}
+
+.filtro-btn:hover {
+    background-color: #ff7b00;
+    color: #fff;
+    border-color: #ff7b00;
+}
+
+.viajes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 800px;
+    margin: 40px auto; 
+}
+
+.tarjeta-viaje {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-viaje:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-contenido {
+  padding: 1.5rem;
+}
+
+.tarjeta-contenido h3 {
+  color: var(--color-principal);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.fecha {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.detalles {
+  margin-bottom: 1rem;
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.detalles li {
+  margin-bottom: 0.3rem;
+}
+
+.precio {
+  font-weight: bold;
+  color: #333;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-reservar {
+  display: inline-block;
+  background-color: var(--color-boton);
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reservar:hover {
+  background-color: var(--color-boton-hover);
+}
+
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: var(--color-boton);
+  outline: none;
+}
+
+form input[type="submit"] {
+  background-color: var(--color-boton);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: var(--color-boton-hover);
+}
+
+footer {
+  background-color: var(--color-footer);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 1.2rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
